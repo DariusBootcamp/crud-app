@@ -38,7 +38,6 @@ export class EmpAddEditComponent {
         next : (val:any) => {
           alert('Employee added successfully');
           this._dialogRef.close();
-
         },
         error: (err:any) =>{}
       })
