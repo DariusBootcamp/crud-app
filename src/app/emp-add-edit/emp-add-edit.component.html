@@ -65,14 +65,14 @@
       <mat-form-field appearance="outline">
         <mat-label>Package</mat-label>
         <input matInput placeholder="Ex. 12" type="number" formControlName="package">
-        <mat-hint>In rupees</mat-hint>
+        <mat-hint>In Dollars</mat-hint>
       </mat-form-field>
     </div>
 
   </div>
 
   <div mat-dialog-actions class="action">
-    <button mat-raised-button>Cancel</button>
-    <button mat-raised-button color="primary" type="submit">Save</button>
+    <button mat-raised-button type="button" mat-dialog-close="false">Cancel</button>
+    <button mat-raised-button color="primary" type="submit">{{data ? 'Update': "Save"}}</button>
   </div>
 </form>

@@ -40,6 +40,18 @@
       "experience": 3,
       "package": 2,
       "id": 2
+    },
+    {
+      "firstName": "parker",
+      "lastName": "marine",
+      "email": "blade",
+      "dob": "2023-02-15T17:00:00.000Z",
+      "gender": "Male",
+      "education": "Intermediate",
+      "company": "eden",
+      "experience": 46,
+      "package": 87,
+      "id": 3
     }
   ]
 }
